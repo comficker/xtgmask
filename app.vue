@@ -22,4 +22,10 @@ const connectWl = () => {
   const manager = new WalletManager(metadata, onWalletChange, 'testnet')
   manager.connect()
 }
+
+useHead({
+  script: [
+    {src: "https://telegram.org/js/telegram-web-app.js", async: true}
+  ]
+})
 </script>
