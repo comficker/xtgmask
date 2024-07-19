@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "@tanstack/vue-query": "^5.51.9",
+    "@wagmi/connectors": "^5.0.26",
+    "@wagmi/core": "^2.12.2",
+    "@wagmi/vue": "^0.0.30",
+    "@web3modal/wagmi": "^5.0.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.408.0",
+    "nuxt": "^3.12.4",
+    "pinia": "^2.1.7",
+    "radix-vue": "^1.9.1",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7",
+    "viem": "2.x",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "typescript": "^5.5.3"
+  }
+}
