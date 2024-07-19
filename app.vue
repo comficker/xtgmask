@@ -10,7 +10,7 @@ const connectWl = () => {
   const metadata = {
     name: 'Cat vs Monster',
     description: 'Cat vs Monster',
-    url: 'https://t.me/cat_vs_monster_bot/app',
+    url: 'https://t.me/dev_hark_bot',
     icons: ['https://catvsmonster.io/icon.png'],
   }
 
